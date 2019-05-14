@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JanZikmund_UserGroupClass>
+            <version>1.0.0</version>
+        </JanZikmund_UserGroupClass>
+    </modules>
+    <global>
+		<helpers>
+		  <usergroupclass>
+		      <class>JanZikmund_UserGroupClass_Helper</class>
+		  </usergroupclass>
+		</helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <JanZikmund_UserGroupClass>
+                    <file>usergroupclass.xml</file>
+                </JanZikmund_UserGroupClass>
+            </updates>
+	    </layout>
+	</frontend>
+</config>

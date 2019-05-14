@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <!-- add body class based on customer group of logged user -->
+    <default>
+        <reference name="root">
+            <action method="addBodyClass">
+                <className helper="usergroupclass/getBodyClass" />
+            </action>
+        </reference>
+    </default>
+</layout>

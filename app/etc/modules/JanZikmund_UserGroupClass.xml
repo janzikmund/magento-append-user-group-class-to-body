@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JanZikmund_UserGroupClass>
+            <active>true</active>
+            <codePool>local</codePool>
+        </JanZikmund_UserGroupClass>
+    </modules>
+</config>
